@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+body{
+    background-image: url(../images/background_image.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    text-decoration: none;
+}
+.fa-flask{
+    color: #fff;
+    margin-left: 130px;
+    margin-bottom: -25px;
+    transition: all 0.3s ease;
+}
+.fa-flask:hover{
+    transform: scale(2);
+}
+.container{
+    text-align: center;
+}
+.image-container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.image-container .image {
+    height: 150px;
+    max-width: 100%;
+    border-radius: 50%;
+    border: 5px solid crimson;
+    transition: all 0.3s ease;
+}
+.image-container .image:hover{
+    transform: scale(1.15);
+}.name-container{
+    font-family: 'Poppins';
+    text-align: center;
+}
+.name-container .name1{
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+.name-container .typing{
+    color: #143F6B;
+    font-weight: 600;
+}
+.name-container .name2{
+    background-color: crimson;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+.heading4{
+    font-family: Verdana;
+    font-weight: 500;
+    padding-top: 20px;
+    color: #143F6B;
+}
+.link-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.link-container a{
+    text-decoration: none;
+    width: 30%;
+    background-color: white;
+    color: crimson;
+    padding: 5px;
+    border: 2px solid crimson;
+    border-radius: 5px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.link-container a:hover{
+    color: #fff;
+    background-color: crimson;
+    transform: scale(1.1);
+}
+footer{
+    background-color: #143F6B;
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+    margin: -10px;
+    margin-top: 100px;
+}
+footer span a{
+    color: crimson;
+    text-decoration: none;
+}
+footer span a:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 600px){
+    .link-container a:hover{
+        color: crimson;
+        background-color: #fff;
+        transform: scale(1);
+    }
+    .footer .discription{
+        display: flex;
+        flex-direction: column;
+
+    }
+}
+@media (min-width: 1300px){
+    .link-container a{
+        width: 20%;
+    }    
+}
