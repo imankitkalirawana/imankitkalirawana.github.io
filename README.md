@@ -4,8 +4,6 @@
 - 📫 How to reach me
 # Gmail: 009ankitkalirawana@gmail.com
 # Telegram: https://twitter.com/imofficialankit
-# Instagram: https://instagram.com/imankitkalirawana
-# Facebook: https://facebook.com/imankitkalirawana
 # Twitter: https://twitter.com/imofficialankit
 # LinkedIn: https://www.linkedin.com/in/imankitkalirawana
 # Youtube: https://www.youtube.com/c/ankitkalirawana
